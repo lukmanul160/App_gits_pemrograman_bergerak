@@ -8,13 +8,14 @@
     android:gravity="center"
     android:padding="20dp">
 
+
     <ImageView
         android:id="@+id/imageOnboarding"
-        android:layout_width="260dp"
-        android:layout_height="260dp"
+        android:layout_width="209dp"
+        android:layout_height="202dp"
         android:layout_margin="15dp"
         android:adjustViewBounds="true"
-        android:contentDescription="@string/app_name"/>
+        android:contentDescription="@string/app_name" />
 
     <TextView
         android:id="@+id/textTitle"

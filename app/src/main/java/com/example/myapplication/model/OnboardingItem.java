@@ -1,10 +1,18 @@
-package com.example.myapplication;
+package com.example.myapplication.model;
 
 public class OnboardingItem {
 
     private int image;
     private String title;
     private String description;
+
+    public OnboardingItem(){}
+
+    public OnboardingItem(int image, String title, String description) {
+        this.image = image;
+        this.title = title;
+        this.description = description;
+    }
 
     public int getImage() {
         return image;
