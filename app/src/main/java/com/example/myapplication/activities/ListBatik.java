@@ -24,7 +24,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class ListBatik extends AppCompatActivity {
 
-    private final String JSON_URL = "https://api.jikan.moe/v3/search/anime?q=naruto" ;
+    private final String JSON_URL = "http://batikita.herokuapp.com/index.php/batik/all" ;
     private JsonArrayRequest request ;
     private RequestQueue requestQueue ;
     private List<Batik> lstBatik ;
@@ -47,7 +47,7 @@ public class ListBatik extends AppCompatActivity {
             @Override
             public void onResponse(JSONArray response) {
 
-                JSONObject jsonObject =null;
+                JSONObject jsonObject;
 
                 for (int i = 0 ; i < response.length(); i++ ) {
 
